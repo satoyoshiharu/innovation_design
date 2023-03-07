@@ -11,16 +11,22 @@
     <meta name="author" content="Yoshiharu Sato">
 	<title>innovation_design</title>
 
-    <!-- Fonts -->
+    <!-- 
+	Fonts
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<!--<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">-->
 	<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap" rel="stylesheet">
-
-
-<style>
-body {font-family: 'BIZ UDPGothic', sans-serif; }
-body {font-family: '游ゴシック';} 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+ 	-->
+ <style>
+/*body {font-family: 'BIZ UDPGothic', sans-serif; }*/
+/*body {font-family: '游ゴシック';}*/
+/*body {font-family: 'Noto Sans Japanese';} */
+body {
+	font-family: 'a-otf-ud-shin-go-pr6n', sans-serif; 
+	font-style: normal;
+	font-weight: 300;
+}
 p { line-height: 1.75;  }
 li { line-height: 1.75;  }
 table { line-height: 1.5; margin: auto; }
@@ -33,6 +39,8 @@ table { line-height: 1.5; margin: auto; }
 .small { font-size: 90%; }
 .summary-bg { background-color:#f8f4e6;} 
 </style>
+
+
 	
 </head>
 
@@ -42,7 +50,7 @@ table { line-height: 1.5; margin: auto; }
 <h2>- IT技術者のためのイノベーション・デザイン・テクニック -</h2>
 <br><hr>
 
-<details open><summary>目次</summary>
+<p></p><details open><summary>目次</summary>
 	<!--https://shu-sait.com/mokuji-jidou-seisei/-->
 	<div id="toc" class="l-toc"></div>
 </details>
@@ -53,14 +61,14 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>1.1 想定読者と本書の目的</h3>
 		
-		<details open><summary><strong>本文書の想定読者</strong></summary>
+		<p></p><details open><summary><strong>本文書の想定読者</strong></summary>
 			<p>
 				本文書は、主に、ITの勉強をしている若者に向けたものです。
 				さらに、IT開発の前線で仕事に追われている方で、現状に違和感を持たれている方々に、向けたものです。
 			</p>
 		</details>
 		
-		<details open><summary><strong>自分探し？</strong></summary>
+		<p></p><details open><summary><strong>自分探し？</strong></summary>
 			<p>
 				あなたが、ITの勉強を始めて間もない方だとします。
 				これから社会に出て仕事を始めるときに、制約を受け始めます。
@@ -71,21 +79,22 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 		
-		<details open><summary><strong>顧客のニーズ？<br></strong></summary>
+		<p></p><details open><summary><strong>顧客のニーズ？<br></strong></summary>
 			<p>
 				あなたは、すでにITの前線で、仕事に追われている方だとします。
 				上司やお客様と話しをします。
 				これこれのシステムを作ってくれと、言われます。
 				そういうとき、お客様の要望は実は課題を解決しないことが、しばしばあります。
 				また、後になって、これはこうだったという、仕様の変更や手戻りが、よくあります。
-				<div class="printfriendlyblock" align="center"><img width=80% src="figures/スライド2.PNG"></div>
+			</p>
+			<div class="printfriendlyblock" align="center"><img width=80% src="figures/スライド2.PNG"></div>
+			<p>
 				お客様の満足を得るには、お客様が言う表面上の言葉にとらわれてはだめなのです。
 				お客様の表現しない、本当の課題と解決策まで、探らなければなりません。
 			</p>
 		</details>
 
-		<details open><summary><strong>目的と手段</strong></summary>
-
+		<p></p><details open><summary><strong>目的と手段</strong></summary>
 			<p>
 				ここで本書の大前提である、目的と手段の違いを説明します。
 				セオドア・レビットという人が、次の言葉を残しました。
@@ -101,7 +110,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>日本の教育になかったもの</strong></summary>
+		<p></p><details open><summary><strong>日本の教育になかったもの</strong></summary>
 			<p>
 				日本の教育は、伝統的に、HOWである読み書きそろばんを偏重しています。
 				現代のIT教育も、その延長で、プログラミングという手段の教育が中心です。
@@ -120,7 +129,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>秀才とリーダーの違い?</strong></summary>
+		<p></p><details open><summary><strong>秀才とリーダーの違い?</strong></summary>
 			<p>
 				秀才とリーダーは、どう違うでしょうか？
 			</p>
@@ -143,7 +152,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>受講生の言葉</strong></summary>
+		<p></p><details open><summary><strong>受講生の言葉</strong></summary>
 			<p>
 				本書の内容は、とあるIT技術専門学校で、半期コースとして過去に6回実施したものに基づいています。
 				その内容は、最初は、著者の経験と、公に入手できる参考情報に基づき、構成しました。
@@ -182,7 +191,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>1.2 本文書の構成</h3>
 
-		<details open><summary><strong>本文書の構成</strong></summary>
+		<p></p><details open><summary><strong>本文書の構成</strong></summary>
 			<p>
 				若いIT技術者向けに、WHATを詰めるということに役立つトピックを選びました。
 			</p>
@@ -196,11 +205,13 @@ table { line-height: 1.5; margin: auto; }
 				<ul>
 					<li>
 						リーン・スタートアップという考え方があります
-						（参考<a href="#Blank09">「ブランク09」</a>、<a href="#Ries12">「リース12」</a>）。
+						（参考<a href="#Blank09">[スティーブン・B・ブランク、2009]</a>、
+						<a href="#Ries12">[エリック・リース、2012]</a>）。
 						ビジネスを新たに起こすため、スタートアップの人々に広がった考え方です。
 						その人たちのテクニックを含みます。
 						ただし、IT技術者向けということで、ビジネスキャンパス
-						(参考 <a href="#オスターワル、ビニュール12">[オスターワル、ビニュール12]</a>)とかのビジネス向きのトピックは割愛しました。
+						(参考 <a href="#オスターワル、ビニュール12">[アレックス・オスターワル、イブ・ビニュール、2012]</a>)
+						とかのビジネス向きのトピックは割愛しました。
 					</li>
 					<li>
 						それを中心に、顧客中心とかデザイン思考という考え方を、ブレンドしました。
@@ -230,7 +241,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>1.3 第1章のまとめ</h3>
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>
@@ -256,7 +267,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>2.1 イノベーションの理論</h3>
 
-		<details open><summary><strong>類型理論</strong></summary>
+		<p></p><details open><summary><strong>類型理論</strong></summary>
 			<p>
 				手始めに、イノベーションに関する理論的古典を、二つご紹介します。
 				イノベーションのディレンマ、ブルー・オーシャンの二つです。
@@ -266,10 +277,10 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>イノベーションのディレンマ</strong></summary>
+		<p></p><details open><summary><strong>イノベーションのディレンマ</strong></summary>
 			<p>
 				まずイノベーションのディレンマという理論です
-				（参考 <a href="#Cristensen97">[クリステンセン97]</a>）。
+				（参考 <a href="#Christensen97">[クレイトン・クリステンセン、1997]</a>）。
 				その理論は、大企業は必ず衰退するということを提唱しました。
 				企業はいったん製品が成功すると、その市場を維持するために、小さな改良を続けようとします。
 				一方、その間、別の企業が、性能的にははるかに劣っている製品で参入します。
@@ -351,10 +362,10 @@ table { line-height: 1.5; margin: auto; }
 
 		</details>
 
-		<details open><summary><strong>ブルー・オーシャン戦略</strong></summary>
+		<p></p><details open><summary><strong>ブルー・オーシャン戦略</strong></summary>
 			<p>
 				次に、イノベーション（類型）理論の古典の2個目として、ブルー・オーシャン戦略をご紹介します。
-				（参考 <a href="#Kim05">[キム05]</a>） は、
+				（参考 <a href="#Kim05">[チャン・キム、レネ・モボルニュ、2005]</a>） は、
 				レッド・オーシャンとブルー・オーシャンという用語を、広めました。
 				レッド・オーシャンとは、ある同一市場で、複数の企業が、争っている状態を言います。
 				血で血を洗うように争うさまを、海が真っ赤に染まることで例えています。
@@ -418,7 +429,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>2.2 イノベーションの事例</h3>
 
-		<details open><summary><strong>事例から学ぶ</strong></summary>
+		<p></p><details open><summary><strong>事例から学ぶ</strong></summary>
 			<p>
 				イノベーションの事例を見て、成功と失敗の要因を学びます。
 				特に、技術革新とイノベーションの関係について気を付けてください。
@@ -428,7 +439,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>2.2.1 成功事例</h4>
 
-			<details open><summary><strong>付箋紙</strong></summary>
+			<p></p><details open><summary><strong>付箋紙</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 弱い接着剤だけでは使い道がなかった。簡単にはがれない本のしおりが欲しいと思った。（潜在ニーズ）
@@ -441,7 +452,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>バーコード</strong></summary>
+			<p></p><details open><summary><strong>バーコード</strong></summary>
 				<ul>
 					<li>
 						きっかけ： アメリカの食品チェーン店は、レジの行列を解消したかった。
@@ -458,7 +469,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>ポータブル・ステレオ・プレーヤー</strong></summary>
+			<p></p><details open><summary><strong>ポータブル・ステレオ・プレーヤー</strong></summary>
 			<ul>
 				<li>
 					きっかけ： ある有名電機製造企業S社の名誉会長が、旅客機内で時間を持て余していた。
@@ -473,7 +484,7 @@ table { line-height: 1.5; margin: auto; }
 				</li>
 			</ul>
 			</details>
-			<details open><summary><strong>サイクロン式掃除機</strong></summary>
+			<p></p><details open><summary><strong>サイクロン式掃除機</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 掃除をしていると、フィルターが目詰まりし、すぐに吸引力が弱くなる。
@@ -489,7 +500,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>組み立て家具</strong></summary>
+			<p></p><details open><summary><strong>組み立て家具</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 家具を車で運ぶのが大変だった。
@@ -506,7 +517,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>動画共有サイト</strong></summary>
+			<p></p><details open><summary><strong>動画共有サイト</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 某G社の社員が、スマトラ沖地震の動画をインターネットで探した。しかし、なかなか見つけられなかった。(潜在ニーズ）
@@ -519,7 +530,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>掃除ロボット</strong></summary>
+			<p></p><details open><summary><strong>掃除ロボット</strong></summary>
 				<ul>
 					<li>
 						きっかけ： I社は、ロボットメーカーーだった。
@@ -536,7 +547,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>空き部屋のマッチングサービス</strong></summary>
+			<p></p><details open><summary><strong>空き部屋のマッチングサービス</strong></summary>
 				<ul>
 					<li>
 						きっかけ： A社創業者は、サンフランシスコに住んで、家賃を払うお金がなかった。
@@ -550,7 +561,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>配車サービス</strong></summary>
+			<p></p><details open><summary><strong>配車サービス</strong></summary>
 				<ul>
 					<li>
 						きっかけ： U社創業者は、今、この場でタクシーに乗りたい、と思った。
@@ -565,7 +576,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>モバイル・メッセンジャー・アプリ</strong></summary>
+			<p></p><details open><summary><strong>モバイル・メッセンジャー・アプリ</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 東日本震災時、電話もメールも通じないときに、US発のマイクロブログSNSが活躍した。（潜在ニーズ）
@@ -579,7 +590,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>高品質雑貨販売</strong></summary>
+			<p></p><details open><summary><strong>高品質雑貨販売</strong></summary>
 				<ul>
 					<li>
 						きっかけ： 「割れシイタケ」は、十分においしい。にもかかわらず、正規の流通ルートに乗らなかった。（潜在ニーズ）
@@ -594,7 +605,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>コンテンツ製作・ストリーム配信サービス</strong></summary>
+			<p></p><details open><summary><strong>コンテンツ製作・ストリーム配信サービス</strong></summary>
 				<ul>
 					<li>
 						きっかけ： USのN社創業者は、ビデオレンタル店で返却忘れのために遅滞金をはらった。
@@ -609,7 +620,7 @@ table { line-height: 1.5; margin: auto; }
 					</li>
 				</ul>
 			</details>
-			<details open><summary><strong>駐車場活用サービス</strong></summary>
+			<p></p><details open><summary><strong>駐車場活用サービス</strong></summary>
 				<ul>
 					<li>
 						きっかけ： USのR社は、駐車場管理システムを事業にしていた。
@@ -626,7 +637,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>2.2.2 成功の要因</h4>
-			<details open><summary><strong>成功の要因</strong></summary>
+			<p></p><details open><summary><strong>成功の要因</strong></summary>
 				<p>
 					ここで、成功事例の共通の特徴をまとめます。
 					<ul>
@@ -637,7 +648,7 @@ table { line-height: 1.5; margin: auto; }
 					</ul>
 				</p>
 			</details>
-			<details open><summary><strong>技術は手段</strong></summary>
+			<p></p><details open><summary><strong>技術は手段</strong></summary>
 				<p>
 					では、逆に、イノベーションに本質的でない特徴は何でしょうか?
 				</p>
@@ -649,7 +660,7 @@ table { line-height: 1.5; margin: auto; }
 					つまり、イノベーション＝技術革新では、ありません。
 				</p>
 			</details>
-			<details open><summary><strong>課題の大きさが価値を決める</strong></summary>
+			<p></p><details open><summary><strong>課題の大きさが価値を決める</strong></summary>
 				<p>
 					イノベーションは、ある課題を解決することが、人々に受け入れられることで起こります。
 					そして、<strong>解決される課題の大きさが、価値を決めます</strong>。
@@ -671,7 +682,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>2.2.3 失敗事例</h4>
-			<details open><summary><strong>エジソンの電気投票記録器</strong></summary>
+			<p></p><details open><summary><strong>エジソンの電気投票記録器</strong></summary>
 				<p>
 					発明王エジソンは、若いとき、初めての特許を、電気投票記録装置で取得したそうです。
 					その解決する課題は明確でした。
@@ -684,7 +695,7 @@ table { line-height: 1.5; margin: auto; }
 					そこから、エジソンの「人の役にたつ」諸発明の道程が始まりました。
 				</p>
 			</details>
-			<details open><summary><strong>身につけるスマホ</strong></summary>
+			<p></p><details open><summary><strong>身につけるスマホ</strong></summary>
 				<p>
 					G社の眼鏡は、カメラがついて、眼鏡がモニターになっていろんな情報が映し出されるものでした。
 					当初、歩きスマホをなくすという意図を持っていたらしいです。
@@ -700,7 +711,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 			<!--
-			<details open><summary><strong>Apple Watch</strong></summary>
+			<p></p><details open><summary><strong>Apple Watch</strong></summary>
 				<p>
 					時計の小さな画面は、スマホの画面の視認性に劣ります。
 					アップルが、スマホの代替物として位置づけようとしたなら、役者不足でした。
@@ -708,14 +719,14 @@ table { line-height: 1.5; margin: auto; }
 					現在、親が子供と連絡するツール、あるいは子供間の連絡ツールとして、はやっているそうです。
 				</p>
 			</details>
-			<details open><summary><strong>トービの視線追跡装置</strong></summary>
+			<p></p><details open><summary><strong>トービの視線追跡装置</strong></summary>
 				<p>
 					技術があって生まれました。
 					しかし、調査などの限定されたユーザー・シナリオでしか利用されていません。
 					何をどう解決して、その結果ユーザーがどううれしいのかの吟味が、いまだできていません。
 				</p>
 			</details>
-			<details open><summary><strong>マイクロソフトのKINECTゲーム</strong></summary>
+			<p></p><details open><summary><strong>マイクロソフトのKINECTゲーム</strong></summary>
 				<p>
 					赤外線による深度カメラでジェスチャーをとらえる技術を、ゲームに応用しました。
 					一瞬ヒットしましたが、今は撤退しています。
@@ -727,7 +738,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>2.2.4 失敗の要因</h4>
-			<details open><summary><strong>失敗の要因</strong></summary>
+			<p></p><details open><summary><strong>失敗の要因</strong></summary>
 				<p>
 					技術があるから作ったという商品は、失敗しがちです。
 					なぜなら、<u>技術がまずありきで、誰を、どういう時に、どう助けるのかのゴールが、後付けで曖昧だからです</u>。
@@ -752,7 +763,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 	
 		<div><h4>2.2.5 夢の力</h4>
-			<details open><summary><strong>イノベーションの母体</strong></summary>
+			<p></p><details open><summary><strong>イノベーションの母体</strong></summary>
 				<p>
 					イノベーションは、ふとした小さな気づきから生まれることが多いようです。
 					一方、あることの周りに、まとまって起きることもあります。
@@ -790,7 +801,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>2.3 消費者に聞く</h3>
-		<details open><summary><strong>インターネットによる変化</strong></summary>
+		<p></p><details open><summary><strong>インターネットによる変化</strong></summary>
 			<p>
 				価値は、作り手でなく、受け手である人々が決めます。
 				一方、インターネットが普及し、情報流通が進みました。
@@ -846,7 +857,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>2.4 第２章のまとめ</h3>
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>一度成功した企業は、持続的改良を続けようとして、滅びます。</li>
@@ -866,7 +877,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>3.1 デザインの流れ</h3>
 
-		<details open><summary><strong>ウォーター・フォール</strong></summary>
+		<p></p><details open><summary><strong>ウォーター・フォール</strong></summary>
 			<p>
 				ここでデザインの流れを説明します。
 			</p>
@@ -907,7 +918,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>スパイラルモデル</strong></summary>
+		<p></p><details open><summary><strong>スパイラルモデル</strong></summary>
 			<p>
 				一方、試して、評価・学習して、また試すことを繰り返すようなやり方を、一般に試行錯誤といいます。
 				試行錯誤で開発を進める流れを、スパイルといいます。
@@ -936,7 +947,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>3.2 ３つのフェーズ</h3>
 
-		<details open><summary><strong>リーン・スタートアップ</strong></summary>
+		<p></p><details open><summary><strong>リーン・スタートアップ</strong></summary>
 			<p>
 				本書では、リーン・スタートアップという考え方による開発の流れを、見ていきます。
 				最初に、顧客の課題定義の試行錯誤を行います。
@@ -952,7 +963,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>リリースの前後</strong></summary>
+		<p></p><details open><summary><strong>リリースの前後</strong></summary>
 
 			<p>
 				まず、前の二つと最後のフェーズは明確に区切られます。
@@ -965,7 +976,7 @@ table { line-height: 1.5; margin: auto; }
 
 		</details>
 
-		<details open><summary><strong>顧客視点</strong></summary>
+		<p></p><details open><summary><strong>顧客視点</strong></summary>
 
 			<p>
 				次に前の二つのフェーズに関してみていきます。
@@ -1007,7 +1018,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>新しい提案</strong></summary>
+		<p></p><details open><summary><strong>新しい提案</strong></summary>
 
 			<p>
 				次に、イノベーションという側面から見てみます。
@@ -1039,7 +1050,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>3つのフェーズ</strong></summary>
+		<p></p><details open><summary><strong>3つのフェーズ</strong></summary>
 
 			<p>
 				このように、3つのフェーズを、明確に分けて、この順番でやります。
@@ -1052,7 +1063,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>3.3 第3章のまとめ</h3>
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>
@@ -1081,11 +1092,11 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>4.1 課題はどこにあるか？</h3>
 
-		<details open><summary><strong>自利利他</strong></summary>
+		<p></p><details open><summary><strong>自利利他</strong></summary>
 
 			<p>
 				スティーブ・ジョブズは、「大好きなことをしなさい。自分の心に従いなさい。」と言いました
-				（参考 <a href="#Gallo10">[Gallo10]</a>）。
+				（参考 <a href="#Gallo10">[カーマイン・ガロ、2011]</a>）。
 				なぜか？
 				なぜなら、「人は、そういうときに、最もパワフルになるから」と。
 				自分の力を引き出すには、自分が好きなことに取り組むことです。
@@ -1141,7 +1152,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>未知の潜在領域</strong></summary>
+		<p></p><details open><summary><strong>未知の潜在領域</strong></summary>
 
 			<p>
 				自分が好きでかつ社会的な課題やニーズは、どこで見つけられるでしょうか？
@@ -1231,7 +1242,7 @@ table { line-height: 1.5; margin: auto; }
 	<div><h3>4.2 課題の調査</h3>
 
 		<div><h4>4.2.1 調査のための予備知識</h4>
-			<details open><summary><strong>概要</strong></summary>
+			<p></p><details open><summary><strong>概要</strong></summary>
 				<p>
 					課題の調査を行うにあたり、事前に押さえておくべき基礎知識として、３つのことを説明します。
 					<ul>
@@ -1242,7 +1253,7 @@ table { line-height: 1.5; margin: auto; }
 					の3点です。
 				</p>
 			</details>
-			<details open><summary><strong>意識された欲求は現実の延長である</strong></summary>
+			<p></p><details open><summary><strong>意識された欲求は現実の延長である</strong></summary>
 				<p>
 					有名な話があります。
 					ヘンリー・フォードは、自動車産業を興したフォード・モーターズの創業者です。
@@ -1275,7 +1286,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>ニーズや課題の裏に多様な欲望がある</strong></summary>
+			<p></p><details open><summary><strong>ニーズや課題の裏に多様な欲望がある</strong></summary>
 				<p>
 					中国では自撮り棒がはやりました。
 					それを利用するユーザーの欲望は、どういうものでしょうか？
@@ -1297,7 +1308,7 @@ table { line-height: 1.5; margin: auto; }
 					本当の解決策とは、背後の欲望を満たすものです。
 				</p>
 			</details>
-			<details open><summary><strong>人には認知バイアスがある</strong></summary>
+			<p></p><details open><summary><strong>人には認知バイアスがある</strong></summary>
 				<p>
 					実験をします。
 					<ol>
@@ -1314,7 +1325,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 				<p>
 					別の実験を紹介します
-					(参考 <a href="#Simons10">[Simons10]</a>)。
+					(参考 <a href="#Simons10">[Daniel Simons, 2010]</a>)。
 					白い服を着たチームと、黒い服を着たチームが、
 					バスケットボールのパスをしている動画を見ます。
 					そのとき、「バスケットをしている人たちのうち、白い服を着ている人たちが、何回パスをしたのかを教えてください」、という指示を受けます。
@@ -1360,7 +1371,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>4.2.2 定性調査から始める</h4>
 
-			<details open><summary><strong>仮説検証</strong></summary>
+			<p></p><details open><summary><strong>仮説検証</strong></summary>
 				<p>
 					課題分析の具体的なテクニックの話に入ります。
 				</p>
@@ -1374,7 +1385,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>定性調査と定量調査</strong></summary>
+			<p></p><details open><summary><strong>定性調査と定量調査</strong></summary>
 				<p>
 					調査には、定性的なものと定量的なものがあります。
 					定性調査は、何が、なぜ、いかに、などを問います。
@@ -1428,7 +1439,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>4.2.3 行動観察法</h4>
 
-			<details open><summary><strong>行動観察法の考え方とやり方</strong></summary>
+			<p></p><details open><summary><strong>行動観察法の考え方とやり方</strong></summary>
 				<p>
 					代表的な定性調査方法として、行動観察法をご紹介します。
 					これは、問題が起きる現場で、実際の行動を観察するものです。
@@ -1467,7 +1478,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>即座にメモする</strong></summary>
+			<p></p><details open><summary><strong>即座にメモする</strong></summary>
 				<p>
 					行動観察で、気づいたことを素早くメモするには、スマホにメモアプリを準備しておくといいです。
 					メモアプリに、手書きインクと、音声認識などあります。
@@ -1532,7 +1543,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>4.2.4 半構造化インタビュー法</h4>
 			
-			<details open><summary><strong>半構造化インタビュー法の考え方</strong></summary>
+			<p></p><details open><summary><strong>半構造化インタビュー法の考え方</strong></summary>
 				<p>
 					次に、定性分析の第2の手法である、半構造化インタビューをご紹介します。			
 				</p>
@@ -1604,7 +1615,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>聞き上手のテクニック</strong></summary>
+			<p></p><details open><summary><strong>聞き上手のテクニック</strong></summary>
 				<p>
 					話の間は、聞き上手に徹します。
 					聞き上手とは、どういうことでしょうか？
@@ -1643,7 +1654,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>深堀のテクニック</strong></summary>
+			<p></p><details open><summary><strong>深堀のテクニック</strong></summary>
 				<p>
 					次に流れの中で、掘り下げていくテクニックを見ていきます。
 				</p>
@@ -1714,7 +1725,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>ぐぐるときの検索キーワード</strong></summary>
+			<p></p><details open><summary><strong>ぐぐるときの検索キーワード</strong></summary>
 				<p>
 					おまけで、課題を見つける簡易な方法を、ご紹介します。
 					検索時、検索アプリは、よく行われる検索のキーワード予測をしてくれます。
@@ -1731,7 +1742,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>4.2.5 アイデアを集約する</h4>
-			<details open><summary><strong>KJ法</strong></summary>
+			<p></p><details open><summary><strong>KJ法</strong></summary>
 
 				<p>
 					定性調査で集めた気づきは、定性情報なため混とんとしています。
@@ -1802,7 +1813,7 @@ table { line-height: 1.5; margin: auto; }
 	<div><h3>4.3 課題の分析</h3>
 
 		<div><h4>4.3.1 課題の分析概観</h4>
-			<details open><summary><strong>分析の概観</strong></summary>
+			<p></p><details open><summary><strong>分析の概観</strong></summary>
 
 				<p>
 					課題仮説を得たら、まず課題を絞り込みます。
@@ -1815,7 +1826,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>4.3.2 課題を絞り込む</h4>
 
-			<details open><summary><strong>課題仮説の絞り込み</strong></summary>
+			<p></p><details open><summary><strong>課題仮説の絞り込み</strong></summary>
 				<p>
 					いろいろな課題仮説があたっとします。
 					その中から、取り組む課題を絞り込みます。
@@ -1899,7 +1910,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>課題に対する注意点</strong></summary>
+			<p></p><details open><summary><strong>課題に対する注意点</strong></summary>
 				<p>
 					自分たちは課題の被害者だ、という見地はとってはいけません。
 					その立場だと、解決は他人事となります。
@@ -1918,7 +1929,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>4.3.3 顧客を絞る</h4>
 
-			<details open><summary><strong>なぜターゲット顧客層を絞るのか？</strong></summary>
+			<p></p><details open><summary><strong>なぜターゲット顧客層を絞るのか？</strong></summary>
 			    <p>
 					商品を企画する組織の部門を、マーケティングといいます。
 					マーケティングの世界では、企画のアプローチとして、R-STPという言葉があります。
@@ -1949,7 +1960,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>課題仮説が広範囲のユーザーの課題であるとき？</strong></summary>
+			<p></p><details open><summary><strong>課題仮説が広範囲のユーザーの課題であるとき？</strong></summary>
 				<p>
 					課題仮説が広範囲のユーザーの課題であるときは、どうしましょうか？
 				</p>
@@ -1965,7 +1976,7 @@ table { line-height: 1.5; margin: auto; }
 				<p>
 			</details>
 
-			<details open><summary><strong>複数のターゲットユーザー？</strong></summary>
+			<p></p><details open><summary><strong>複数のターゲットユーザー？</strong></summary>
 				<p>
 					ここで、ターゲットユーザーには複数設定しないといけない場合があります。
 				</p>
@@ -1984,7 +1995,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>重要なユーザー</strong></summary>
+			<p></p><details open><summary><strong>重要なユーザー</strong></summary>
 				<p>
 					ターゲットユーザーを決めたときに、早期採用者という人たちのことを意識してください。
 				</p>
@@ -2020,7 +2031,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>4.3.4 代替策を押さえる</h4>
-			<details open><summary><strong>課題に対する現在の代替策を押さえる</strong></summary>
+			<p></p><details open><summary><strong>課題に対する現在の代替策を押さえる</strong></summary>
 
 				<p>
 					いい課題と顧客層を絞り込んだとします。
@@ -2043,7 +2054,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>4.3.5 ペルソナ</h4>
-			<details open><summary><strong>ペルソナとは？</strong></summary>
+			<p></p><details open><summary><strong>ペルソナとは？</strong></summary>
 				<p>
 					ペルソナとは、『調査に基づいて、具体的な人物像を想定し、
 					ターゲットユーザー層の典型的な属性や行動、および、目標と課題について、
@@ -2054,7 +2065,7 @@ table { line-height: 1.5; margin: auto; }
 					解決策は、この解決したい動機にこたえる必要があるので、ここで動機を押さえます。
 				</p>
 			</details>
-			<details open><summary><strong>なぜ具体的な人物像にする？</strong></summary>
+			<p></p><details open><summary><strong>なぜ具体的な人物像にする？</strong></summary>
 				<p>
 					なぜ具体的な人物像にするといいのでしょうか？ 
 				</p>
@@ -2106,7 +2117,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 				<!--<div class="printfriendlyblock"  align="center"><img width=90% src="figures/スライド59.PNG"></div>-->
 			</details>
-			<details open><summary><strong>ペルソナのサンプル</strong></summary>
+			<p></p><details open><summary><strong>ペルソナのサンプル</strong></summary>
 				<p>
 					ここに、具体的に文章で書いたペルソナのサンプルがあります。
 					<ul>
@@ -2165,7 +2176,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>4.3.6 共感マップ</h4>
-			<details open><summary><strong>共感マップとは？</strong></summary>
+			<p></p><details open><summary><strong>共感マップとは？</strong></summary>
 				<p>
 					次に共感マップをご紹介します。
 					共感マップは、『顧客が何を見て、何を聞き、何を考え＆感じ、何を語り＆行っているかを、一枚にまとめたもの』です。
@@ -2173,7 +2184,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>環境を整理する理由</strong></summary>
+			<p></p><details open><summary><strong>環境を整理する理由</strong></summary>
 				<p>
 					なぜ、周囲を含めて、整理するのでしょうか？
 					共感マップの意義は何でしょうか？
@@ -2185,7 +2196,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>共感マップの例</strong></summary>
+			<p></p><details open><summary><strong>共感マップの例</strong></summary>
 				<p>
 					これは、共感マップのサンプルです。
 				</p>
@@ -2198,7 +2209,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 			</details>
 
-			<details open><summary><strong>分析手法の位置づけ</strong></summary>
+			<p></p><details open><summary><strong>分析手法の位置づけ</strong></summary>
 				<p>
 					分析手法として、ご紹介したものの関係をまとめます。
 				</p>
@@ -2210,7 +2221,7 @@ table { line-height: 1.5; margin: auto; }
 					これらで、課題と顧客の情報を整理します。
 				</p>
 			</details>
-			<details open><summary><strong>二次資料で補う</strong></summary>
+			<p></p><details open><summary><strong>二次資料で補う</strong></summary>
 
 				<p>
 					一次資料というのは、行動観察したりインタビューしたりして、自分たちが直接見聞きした情報をいいます。
@@ -2241,7 +2252,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>4.4 第4章のまとめ</h3>
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>
@@ -2276,7 +2287,7 @@ table { line-height: 1.5; margin: auto; }
 <div class="pagebreak"><hr><br><h2>第5章. 解決のデザイン</h2><br>
 
 	<div><h3>5.1 解決のデザインの概要</h3>
-		<details open><summary><strong>概要</strong></summary>
+		<p></p><details open><summary><strong>概要</strong></summary>
 
 			<p>
 				解決策の検討もまた、仮説立案とその検証の繰り返しです。
@@ -2290,7 +2301,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>広げてから絞る</strong></summary>
+		<p></p><details open><summary><strong>広げてから絞る</strong></summary>
 
 
 			<p>
@@ -2330,7 +2341,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>5.2.1 概観</h4>
 
-			<details open><summary><strong>発想法とは</strong></summary>
+			<p></p><details open><summary><strong>発想法とは</strong></summary>
 				<p>
 					解決デザインをするために、アイデアを広げるためのテクニックを見ていきます。
 					アイデアを広げる発想法には、いろんなテクニックがあります。
@@ -2348,7 +2359,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.2.2 他者</h4>
-			<details open><summary><strong>他者を契機とする</strong></summary>
+			<p></p><details open><summary><strong>他者を契機とする</strong></summary>
 				<p>
 					最初のカテゴリーは、他者を契機とする手法です。
 				</p>
@@ -2364,7 +2375,7 @@ table { line-height: 1.5; margin: auto; }
 					それらに、本を読んで、ほかのヒトの思想に触れることを加えても良いでしょう。
 				</p>
 				<p>
-					<a href="#Johonson10">[Johnson10]</a>>によると、ひらめきというのは、
+					<a href="#Johonson10">[Steven Johnson、2010]</a>>によると、ひらめきというのは、
 					人が学習するときに脳内に新しい神経ネットワークの結合ができるようなものだそうです。
 					つまり、人は単独で革新的なアイデアを得るのではなく、人のネットワークから得るのだそうです。	
 					重要な飛躍的アイデアのほとんどは、研究室の顕微鏡を前に一人で思いつくのではなく、会議や雑談などから生まれています。
@@ -2374,7 +2385,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.2.3 運動</h4>
-			<details open><summary><strong>運動する</strong></summary>
+			<p></p><details open><summary><strong>運動する</strong></summary>
 
 				<p>
 					第2の広げる方法は、運動です。
@@ -2401,7 +2412,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.2.4 連想</h4>
-			<details open><summary><strong>連想</strong></summary>
+			<p></p><details open><summary><strong>連想</strong></summary>
 
 				<p>
 					第3の広げる方法は、連想です。
@@ -2437,7 +2448,7 @@ table { line-height: 1.5; margin: auto; }
 				<p>
 					面白い連想テクを紹介します。
 					おもちゃメーカーのB社の企画担当の方は、しりとりをしながら、おもちゃとの関連性を考え、
-					新しいおもちゃを考案したそうです（<a href="#高橋13">[高橋13]</a>>[]）。
+					新しいおもちゃを考案したそうです（<a href="#高橋13">[高橋晋平、2013]</a>>[]）。
 					目的としておもちゃの開発という強い制約がある場合に、その発想を広げる方法として、ランダムな要素を取り入れています。
 					いったん目標から離れ、ランダムに言葉をあげていくことで、さっき挙げた言葉と今出した言葉が勝手に結び付き始めるそうです。
 				</p>
@@ -2445,7 +2456,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 		
 		<div><h4>5.2.5 図</h4>
-			<details open><summary><strong>図示</strong></summary>
+			<p></p><details open><summary><strong>図示</strong></summary>
 				<p>
 					第4の広げる方法は、図示です。
 				</p>
@@ -2470,7 +2481,7 @@ table { line-height: 1.5; margin: auto; }
 
 		<div><h4>5.2.6 もみほぐし</h4>
 
-			<details open><summary><strong>もみほぐし</strong></summary>
+			<p></p><details open><summary><strong>もみほぐし</strong></summary>
 				<p>
 					第5の広げる方法は、頭をもみほぐすようなテクニック群です。
 					これに属する発想テクニックは沢山あります。
@@ -2484,7 +2495,7 @@ table { line-height: 1.5; margin: auto; }
 			</details>
 
 			<div><h5>5.2.6.1 時間ずらし</h5>
-				<details open><summary><strong>時間ずらし</strong></summary>
+				<p></p><details open><summary><strong>時間ずらし</strong></summary>
 					<p>
 						まず、時間ずらしテクがあります。
 						<div class="printfriendlyblock"  align="center"><img width=90% src="figures/スライド74.PNG"></div>
@@ -2522,10 +2533,10 @@ table { line-height: 1.5; margin: auto; }
 			</div>
 
 			<div><h5>5.2.6.2 オズボーン</h5>
-				<details open><summary><strong>オズボーン</strong></summary>
+				<p></p><details open><summary><strong>オズボーン</strong></summary>
 					<p>
 						もみほぐしに分類できるテクに、オズボーンのチェックリストがあります
-						（参考 <a href="#猪瀬18">[猪瀬18]</a>）。
+						（参考 <a href="#猪瀬18">[猪瀬記利（いのせ のりとし）、2018]</a>）。
 						発明家の間で、有名です。
 						頭に、ある解決策があるとします。
 						あるいは既存の解決策があるとします。
@@ -2655,7 +2666,7 @@ table { line-height: 1.5; margin: auto; }
 			</div>
 			
 			<div><h5>5.2.6.2 なぜなぜ分析</h5>			
-				<details open><summary><strong>なぜなぜ分析</strong></summary>
+				<p></p><details open><summary><strong>なぜなぜ分析</strong></summary>
 					<p>
 						もみほぐしの３つめとしてなぜなぜ分析をご紹介します。
 					</p>
@@ -2684,21 +2695,21 @@ table { line-height: 1.5; margin: auto; }
 
 		</div>
 
-		<div><h4>5.2.7 気分転換など</h4>
-			<details open><summary><strong>気分転換、ちょっと寝、ぼんやりする</strong></summary>
+		<div><h4>5.2.7 無意識の利用</h4>
+			<p></p><details open><summary><strong>無意識の利用</strong></summary>
 				<p>
-					第6の方法として、気分転換をご紹介します。
+					第6の方法として、無意識の活動を利用する方法をご紹介します。
 				</p>
 				<p>
 					スーザン・ワインシェンクさんというデザインの専門家が、心理学からの知見を紹介していました
-					（参考 <a href="#Weinschenk12">[ワインチェンク12]</a>）。
+					（参考 <a href="#Weinschenk12">[スーザン・ワインチェンク、２０１２]</a>）。
 					あることに取り組んだあと、別のことをやることで、さっきの課題が解けた、ということがあります。
 					ニュートンが、落ちるリンゴを見て重力と結び付けたことが例です。
-					すでに頭にあることを、新しいつなげ方で、結び付ける。
+					すでに頭にあることが、新しいつながりで結び付いた。
 					無意識での大脳活動のおかげだそうです。
 				</p>
 				<p>
-					無意識下の脳活動を積極的に利用しようというアプローチがあります。
+					無意識下の脳活動を、積極的に利用しようというアプローチがあります。
 				</p>
 				<p>
 					レム睡眠という「ちょっと寝」が、効果あるということが実験で示されています。
@@ -2710,7 +2721,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 				<p>
 					また、ぼんやりすることが有効という考えもあります。
-					<a href="#Zomorodi17">[Zomorodi17]</a>>では、
+					<a href="#Zomorodi17">[Manoush Zomorodi、2017] </a>では、
 					「退屈すれば脳はひらめく」というプロジェクトを実施しました。
 					それは、絶えず注意を惹くことを目標とするスマホとそのアプリから、遠ざかりぼんやりすることを実践します。
 					すると、創造性や幸福感が高まるそうです。
@@ -2722,9 +2733,10 @@ table { line-height: 1.5; margin: auto; }
 					いずれも、神経の結合が激しく変わる時間帯であるのは間違いないようです。
 				</p>
 				<p>
-					座禅、瞑想、マインドフルネスといったものは、雑念を突き放して精神を統一し、リフレッシュします。
-					意識活動なので、デフォルト・モードやレム睡眠とは異なります。
-					瞑想後だと創造力が高まるという研究もあるそうです。
+					また、座禅、瞑想、マインドフルネスと言われる精神活動があります。
+					これらは同じく、雑念を突き放して精神を統一します。
+					意識的な活動なので、デフォルト・モードやレム睡眠とは異なります。
+					それら活動後も創造力が高まるという研究があるそうです。
 				</p>
 			</details>
 		</div>
@@ -2732,14 +2744,14 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>5.3 解決策を絞る</h3>
 
-		<details open><summary><strong>解決策のブレスト</strong>
+		<p></p><details open><summary><strong>解決策のブレスト</strong>
 			<p>
 				定性調査の結果を集約するときに、ＫＪ法を利用しました。
 				アイデアを広げたあと、アイデアをまとめるときも、ＫＪ法が利用できます。
 			</p>
 		</summary>
 
-		<details open><summary><strong>いい解決策の条件</strong></summary>
+		<p></p><details open><summary><strong>いい解決策の条件</strong></summary>
 
 			<p>
 				解決策のアイデアをまとめたら、今度は絞り込みます。
@@ -2773,7 +2785,7 @@ table { line-height: 1.5; margin: auto; }
 				</ul>
 			</p>
 		</details>
-		<details open><summary><strong>いい解決策の特徴</strong></summary>
+		<p></p><details open><summary><strong>いい解決策の特徴</strong></summary>
 			<p>
 				いい解決策の中でも、インパクトの大きな解決策とはどういうものでしょうか？ 
 				その特徴なら、いくつか挙げることができます。
@@ -2803,7 +2815,7 @@ table { line-height: 1.5; margin: auto; }
 				本質は仮説を立てて検証を繰り返すスパイラルにあります。
 			</p>
 		</details>
-		<details open><summary><strong>ポジショニング</strong></summary>
+		<p></p><details open><summary><strong>ポジショニング</strong></summary>
 
 			<p>
 				課題の調査分析のところで、R-STPという考え方をご紹介しました。
@@ -2851,7 +2863,7 @@ table { line-height: 1.5; margin: auto; }
 	<div><h3>5.4 解決策を固める</h3>
 
 		<div><h4>5.4.1 概観</h4>
-			<details open><summary><strong>概観</strong></summary>
+			<p></p><details open><summary><strong>概観</strong></summary>
 				<p>
 					解決策をイメージ固めするには、ストーリー化とビジュアル化と検証を、繰り返します。
 					<div class="printfriendlyblock"  align="center"><img width=90% src="figures/スライド78.PNG"></div>
@@ -2862,7 +2874,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.4.2 シナリオ</h4>
-			<details open><summary>シナリオ<strong></strong></summary>
+			<p></p><details open><summary>シナリオ<strong></strong></summary>
 				<p>
 					シナリオは、『ターゲットユーザー（ペルソナ）を登場人物とし、
 					そのゴールと、現在の問題状況(Before)、解決された理想的な状況(After)を、物語仕立て（ストーリー）で文章化したもの。』です。
@@ -2888,7 +2900,7 @@ table { line-height: 1.5; margin: auto; }
 				</p>
 				<p>
 					ここで、ジェフリー・ムーアという人が書いた「キャズム」という本の中のシナリオのテンプレートをご紹介します
-					(参考 <a href="#Moore02">[Moore02]</a>)。
+					(参考 <a href="#Moore02">[ジェフリー・ムーア、2002]</a>)。
 					ペルソナ、Before、Afterという3つの段落があります。
 					<ul>
 						<li>ペルソナ</li>
@@ -2997,7 +3009,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.4.3 カスタマー・ジャーニー</h4>
-			<details open><summary>カスタマー・ジャーニー<strong></strong></summary>
+			<p></p><details open><summary>カスタマー・ジャーニー<strong></strong></summary>
 				<p>
 					カスタマー・ジャーニーは、『あるペルソナが、あるゴールを達成しようとしたときに、時間軸に沿って経験することを旅程表のように記述したもの』です。
 				</p>
@@ -3126,7 +3138,7 @@ table { line-height: 1.5; margin: auto; }
 		</div>
 
 		<div><h4>5.4.3 ストーリー・ボード</h4>
-			<details open><summary><strong>ストーリー・ボード</strong></summary>
+			<p></p><details open><summary><strong>ストーリー・ボード</strong></summary>
 				<p>
 					解決策をイメージ固めするには、ストーリー化、ビジュアル化と検証を繰り返します。
 					ビジュアル化には、シナリオに相当する部分を紙芝居、あるいは絵コンテにするストーリー・ボードを作成します。
@@ -3160,7 +3172,7 @@ table { line-height: 1.5; margin: auto; }
 					</ul>
 				</p>
 			</details>
-			<details open><summary><strong>プロトタイプ</strong></summary>
+			<p></p><details open><summary><strong>プロトタイプ</strong></summary>
 				<p>
 					ストーリー・ボードで、解決策をビジュアライズしたら、それで、顧客に刺さる解決策になっているかの検証に入れます。
 				</p>
@@ -3176,7 +3188,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>5.5 第5章のまとめ</h3>
 
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>
@@ -3211,7 +3223,7 @@ table { line-height: 1.5; margin: auto; }
 <div class="pagebreak"><hr><br><h2>第6章. 価値のデザイン</h2><br>
 
 	<div><h3>6.1 価値のデザインの概要</h3>
-		<details open><summary><strong>概要</strong></summary>
+		<p></p><details open><summary><strong>概要</strong></summary>
 
 			<p>
 				価値のデザインでは、まず、評価のための最小なリリースをします。
@@ -3223,7 +3235,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>6.2 MVPから始める</h3>
 
-		<details open><summary><strong>MVP</strong></summary>
+		<p></p><details open><summary><strong>MVP</strong></summary>
 			<p>
 				価値デザインの出発点は、試してもらえるものをリリースすることです。
 				リリースには、資金と時間というコストがかかります。
@@ -3233,7 +3245,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>MVPのタイプ</strong></summary>
+		<p></p><details open><summary><strong>MVPのタイプ</strong></summary>
 			<p>
 				MVPには、いくつかのタイプがあります。
 				<ul>
@@ -3329,7 +3341,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>MVPの本質</strong></summary>
+		<p></p><details open><summary><strong>MVPの本質</strong></summary>
 			<p>
 				MVPは、小さく始めて、まず検証するためのものです。
 			</p>
@@ -3342,7 +3354,7 @@ table { line-height: 1.5; margin: auto; }
 			<p>
 				この考え方を、リーン・スタートアップといいます。
 				リーン（Lean）とはそぎ落としたという意味、無駄肉がない、という意味です。
-				これは、日本語訳で「科学的な起業」と訳されることがあります（参考 <a href="#田所17">[田所17]</a>）。
+				これは、日本語訳で「科学的な起業」と訳されることがあります（参考 <a href="#田所17">[田所雅之、2017]</a>）。
 				科学的とは、客観的な検証に基づいて物事を進める、という趣旨でしょう。
 				小さく始めて、失敗をたくさん繰り返すことが、むしろ推奨されています。
 				昔から「失敗に学べ」と言われますが、それに通じます。
@@ -3376,7 +3388,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>6.3 継続的にリリースする</h3>
 
-		<details open><summary><strong>継続的リリース</strong></summary>
+		<p></p><details open><summary><strong>継続的リリース</strong></summary>
 			<p>
 				まずMVPで、開発する前に価値を検証します。
 				そして、評価計測、学習・方針変更、開発・構築のサイクルを回します。
@@ -3386,7 +3398,7 @@ table { line-height: 1.5; margin: auto; }
 				<div class="printfriendlyblock"  align="center"><img width=90% src="figures/スライド83.PNG"></div>
 			</p>
 		</details>
-		<details open><summary><strong>構築フェーズ</strong></summary>
+		<p></p><details open><summary><strong>構築フェーズ</strong></summary>
 			<p>
 				継続的リリースの構築フェーズには、以下の手法があります。
 				<ul>
@@ -3421,7 +3433,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>計測フェーズ</strong></summary>
+		<p></p><details open><summary><strong>計測フェーズ</strong></summary>
 			<p>
 				いったんリリースしてしまうと、定量的なデータが得られます。
 				MVP後の計測フェーズでは、定性・定量両方の調査方法が使えます。
@@ -3462,7 +3474,7 @@ table { line-height: 1.5; margin: auto; }
 
 	<div><h3>6.4 第６章のまとめ</h3>
 
-		<details open><summary><strong>まとめ</strong></summary>
+		<p></p><details open><summary><strong>まとめ</strong></summary>
 			<div class="summary-bg">
 				<ul>
 					<li>
@@ -3489,7 +3501,7 @@ table { line-height: 1.5; margin: auto; }
 <div class="pagebreak"><hr><br><h2>第７章. 終わりに</h2><br>
 	
 	<div><h3>7.1 まとめ</h3>
-		<details open><summary><strong>考え方</strong></summary>
+		<p></p><details open><summary><strong>考え方</strong></summary>
 			<p>
 				本書では、WHATを詰めるための様々なテクニックを見てきました。
 				その根底にある考え方を、ここで再度、振り返ります。
@@ -3520,7 +3532,7 @@ table { line-height: 1.5; margin: auto; }
 			</ul>
 		</details>
 
-		<details open><summary><strong>テクニック</strong></summary>
+		<p></p><details open><summary><strong>テクニック</strong></summary>
 			<p>
 				WHATを詰めるための様々なテクニックを振り返ります。
 			</p>
@@ -3558,7 +3570,7 @@ table { line-height: 1.5; margin: auto; }
 	</div>
 
 	<div><h3>7.2 変化を起こす</h3>
-		<details open><summary><strong>失われた３０年</strong></summary>
+		<p></p><details open><summary><strong>失われた３０年</strong></summary>
 			<p>
 				日本のIT技術は、世界に比べて遅れています。
 				それは、コロナ渦で政府系アプリが惨敗してITの遅れが露呈する前から、現れていました。
@@ -3573,7 +3585,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>変化に弱い組織文化</strong></summary>
+		<p></p><details open><summary><strong>変化に弱い組織文化</strong></summary>
 			<p>
 				まず、日本の組織は変化に弱いです。
 			</p>
@@ -3605,7 +3617,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>HOWを偏重する教育慣習</strong></summary>
+		<p></p><details open><summary><strong>HOWを偏重する教育慣習</strong></summary>
 			<p>
 				一方、教育は、読み書きそろばん、プログラミングと、HOWを偏重します。
 			</p>
@@ -3627,7 +3639,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>モノづくりの成功体験</strong></summary>
+		<p></p><details open><summary><strong>モノづくりの成功体験</strong></summary>
 			<p>
 				均質集団の中でHOWに長けた日本の秀才と職人は、
 				1990年頃までの高度成長期、モノづくりで成功体験を持ちました。
@@ -3662,7 +3674,7 @@ table { line-height: 1.5; margin: auto; }
 			</p>
 		</details>
 
-		<details open><summary><strong>青少年への期待</strong></summary>
+		<p></p><details open><summary><strong>青少年への期待</strong></summary>
 			<p>
 				これからITを担う青年たちに期待します。
 			</p>
@@ -3688,53 +3700,62 @@ table { line-height: 1.5; margin: auto; }
 
 <div class="pagebreak"><hr><br><h2>参考文献</h2><br>
 <div class="small">
-	<details open><summary>参考</summary>
+	<p></p><details open><summary>参考</summary>
 	<ul>
 		<li id="Blank09">
-			[ブランク09] 「アントレプレナーの教科書」、スティ－ブン・Ｂ・ブランク、(株)翔泳社、2009年、ISBN978-4-7981-1755-3
+			[スティーブン・B・ブランク、2009] 
+			「アントレプレナーの教科書」、スティ－ブン・Ｂ・ブランク、(株)翔泳社、2009年、ISBN978-4-7981-1755-3
 		</li>
-		<li id="Ries21">
-			[リース12] 「リーン・スタートアップ - 無駄のない企業プロセスでイノベーションを生み出す」、エリック・リース、日経BP社、2012年、ISBN978-4-8222-4897-0 
+		<li id="Ries12">
+			[エリック・リース、2012] 
+			「リーン・スタートアップ - 無駄のない企業プロセスでイノベーションを生み出す」、エリック・リース、
+			日経BP社、2012年、ISBN978-4-8222-4897-0 
+		</li>
+		<li id="オスターワル、ビニュール12">
+			[アレックス・オスターワル、イブ・ビニュール、2012]
+			「ビジネスモデルジェネレーレーション」、アレックス・オスターワールド&イブ・ビニュール、2012年、翔泳社、
+			ISBN978-4-7981-2297-7
 		</li>
 		<li id="Christensen97">
-			[クリステンセン97] 「イノベーションのディレンマ - 技術革新が巨大企業を滅ぼすとき」、クレイトン・クリステンセン、（株）翔泳社、1997、ISBN4-7981-0023-4
+			[クレイトン・クリステンセン、1997] 
+			「イノベーションのディレンマ - 技術革新が巨大企業を滅ぼすとき」、クレイトン・クリステンセン、（株）翔泳社、1997、ISBN4-7981-0023-4
 		</li>
 		<li id="Kim05">
-			[キム05] 「ブルー・オーシャン戦略」、チャン・キム、レネ・モボルニュ、（株）ランダムハウス講談社、2005年、ISBN4-270-00070-8
+			[チャン・キム、レネ・モボルニュ、2005]
+			「ブルー・オーシャン戦略」、チャン・キム、レネ・モボルニュ、（株）ランダムハウス講談社、2005年、ISBN4-270-00070-8
 		</li>
 		<li id="Gallo10">
-			[ガロ10] 「スティーブ・ジョブズ 驚異のイノベーション」、カーマイン・ガロ、日経BP社、2011年、ISBN978-4-8222-4856-7
+			[カーマイン・ガロ、2011] 「スティーブ・ジョブズ 驚異のイノベーション」、カーマイン・ガロ、日経BP社、2011年、ISBN978-4-8222-4856-7
 		</li>
 		<li id="Simons10">
-			[Simons10] selective attention test
+			[Daniel Simons, 2010] selective attention test
 			https://www.youtube.com/watch?v=vJG698U2Mvo, Daniel Simons
 		</li>
 		<li id="Weinschenk12">
-			[ワインチェンク12] 「インターフェイスデザインの心理学」、スーザン・ワインチェンク、O'REILLY社、2012年、ISBN978-4-87311-557-3
+			[スーザン・ワインチェンク、２０１２] 「インターフェイスデザインの心理学」、スーザン・ワインチェンク、O'REILLY社、2012年、ISBN978-4-87311-557-3
 		</li>
 		<li id="猪瀬18">
-			[猪瀬18] 「儲かるアイデア発想法」、猪瀬記利（いのせ のりとし)、2018、東京商工会議所、セミナー資料
+			[猪瀬記利（いのせ のりとし）、2018] 「儲かるアイデア発想法」、猪瀬記利（いのせ のりとし)、2018、東京商工会議所、セミナー資料
 		</li>
 		<li id="Moore02">
-			[Moore02] 「キャズム - ハイテクをブレイクさせる超マーケティング理論」、ジェフリー・ムーア、2002年、（株）翔泳社、ISBN4-7981-0152-4
+			[ジェフリー・ムーア、2002] 「キャズム - ハイテクをブレイクさせる超マーケティング理論」、ジェフリー・ムーア、2002年、（株）翔泳社、ISBN4-7981-0152-4
 		</li>
 		<li id="田所17">
-			[田所17] 「起業の科学」、田所雅之、2017年、日経BP社、
+			[田所雅之、2017] 「起業の科学」、田所雅之、2017年、日経BP社、
 			ISBN978-4-8222-5975-4
 		</li>
-		<li id="オスターワル、ビニュール12">
-			[オスターワル、ビニュール12] 「ビジネスモデルジェネレーレーション」、アレックス・オスターワールド＆イブ・ビニュール、2012年、翔泳社、
-			ISBN978-4-7981-2297-7
-		</li>
 		<li id="高橋13">
-			[高橋13] 新しいアイデアのつくり方、高橋晋平、2013、https://www.ted.com/talks/shimpei_takahashi_play_this_word_game_to_come_up_with_original_ideas/transcript?language=ja
+			[高橋晋平、2013] 
+			新しいアイデアのつくり方、高橋晋平、2013、https://www.ted.com/talks/shimpei_takahashi_play_this_word_game_to_come_up_with_original_ideas/transcript?language=ja
 		</li>
 		<li id="Johnson10">
-			[Johnson10] 良いアイデアはどこで生まれる？、Steven Johnson、2010、
+			[Steven Johnson、2010]
+			良いアイデアはどこで生まれる？、Steven Johnson、2010、
 			https://www.ted.com/talks/steven_johnson_where_good_ideas_come_from/details/transcript?language=ja&subtitle=en
 		</li>
 		<li id="Zomorodi17">
-			[Johnson10] 退屈な時に優れたアイデアが思いつく仕組み、Manoush Zomorodi、2017、
+			[Manoush Zomorodi、2017] 
+			退屈な時に優れたアイデアが思いつく仕組み、Manoush Zomorodi、2017、
 			https://www.ted.com/talks/manoush_zomorodi_how_boredom_can_lead_to_your_most_brilliant_ideas/transcript?language=ja
 		</li>
 	</ul>
