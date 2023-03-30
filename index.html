@@ -31,10 +31,8 @@ p {
    padding: 0;      /* 内側の余白を消す(念のため) */
    line-height: 1.75;
 }
-table {
-   table-layout: fixed;
-   width: 100%;
-}
+table { line-height: 1.75; margin: auto; padding: auto; border-collapse: collapse; }
+td { padding:10px 10px; border:1px solid; }
 </style>
 
 	<script type="application/ld+json">
@@ -99,7 +97,7 @@ table {
 	<p><strong><a href="design.pdf">BOOK: 何を作るか(PDF)</a></strong></p>
 	<iframe src="design.pdf"></iframe>
 
-	<table brder="2">
+	<table>
 		<tr>
 			<td>導入</td>
 			<td>
